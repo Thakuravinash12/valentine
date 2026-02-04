@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6;
+    /* Soft pink background */
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+#main-gif {
+    width: 200px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #d63384;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#yes-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+#no-btn {
+    background-color: #dc3545;
+    color: white;
+    position: absolute;
+    /* Crucial for the "moving" effect */
+}
